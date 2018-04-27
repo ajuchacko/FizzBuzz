@@ -2,7 +2,7 @@
 require 'FizzBuzz.php';
 use PHPUnit\Framework\TestCase;
 
-class MyTest extends TestCase {
+class FizzBuzz extends TestCase {
 
   protected $c;
   protected $result_set = ['Fizz', 'Buzz'];
