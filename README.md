@@ -3,9 +3,10 @@ Fizz buzz is a group word game for children to teach them about division. Player
 
 # Example
 
-require 'FizzBuzz.php';
+```require 'FizzBuzz.php';
 
-foreach (range(1,1000) as $value) {
+foreach (range(1,10) as $value) {
   $solve = new FizzBuzz;
   echo $value . '. ' . $solve->SolveFizzOrBuzz($value) . '<br>';
 }
+```
