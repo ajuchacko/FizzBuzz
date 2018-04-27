@@ -2,10 +2,9 @@
 require 'FizzBuzz.php';
 use PHPUnit\Framework\TestCase;
 
-class FizzBuzz extends TestCase {
+class TestFizzBuzz extends TestCase {
 
   protected $c;
-  protected $result_set = ['Fizz', 'Buzz'];
 
   public function setUp()
   {
@@ -37,9 +36,9 @@ class FizzBuzz extends TestCase {
   public function testFizzOrBuzz()
   {
     $result = $this->c->fizzOrBuzz(3);
-    $this->assertSame('Fizz', $this->result_set[array_search($result, $this->result_set)]);
+    $this->assertSame('Fizz',$result);
     $result = $this->c->fizzOrBuzz(5);
-    $this->assertSame('Buzz', $this->result_set[array_search($result, $this->result_set)]);
+    $this->assertSame('Buzz',$result);
   }
 
   public function testSolveFizzOrBuzz()
