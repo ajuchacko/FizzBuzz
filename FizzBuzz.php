@@ -25,7 +25,7 @@ class FizzBuzz {
       return 'Buzz';
     }
   }
-
+// Gives result -> fizz or buzz using this fuction
   public function SolveFizzOrBuzz($value)
   {
     if($value == 1) {
@@ -38,5 +38,4 @@ class FizzBuzz {
       return $value;
     }
   }
-  
 }
