@@ -2,7 +2,7 @@
 require 'FizzBuzz.php';
 use PHPUnit\Framework\TestCase;
 
-class TestFizzBuzz extends TestCase {
+class FizzBuzzTest extends TestCase {
 
   protected $c;
 
